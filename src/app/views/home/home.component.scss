@@ -1,8 +1,7 @@
 @import '../../../styles.scss';
 .torta-home {
-  height: 830px;
   width: 720px;
-  float: right;
+  height: 906px;
 }
 
 .is-small {
@@ -41,4 +40,11 @@
   line-height: 2;
   letter-spacing: normal;
   color: $light-brown;
+}
+
+.rectangle {
+  width: 335px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: #fbdfdb;
 }
