@@ -1,16 +1,9 @@
 @import '../../../styles.scss';
 .logo {
+  padding-top: 1rem;
   width: 107px;
-  height: 126px;
+  height: 52px;
   object-fit: contain;
-}
-
-.logo-container {
-  width: 15%;
-  height: 186px;
-  background-color: $background-color;
-  padding: 29px 55px 29px 55px;
-  float: left;
 }
 
 .navbar-right {

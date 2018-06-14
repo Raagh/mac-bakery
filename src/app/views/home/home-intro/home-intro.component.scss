@@ -1,0 +1,57 @@
+@import '../../../../styles.scss';
+.torta-home {
+  width: 50%;
+  height: 906px;
+}
+
+.is-small {
+  width: 50%;
+  height: 50%;
+}
+
+.padding-margin {
+  padding-left: 30px;
+  padding-top: 4rem;
+  margin-bottom: 70px;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 5px !important;
+}
+
+.home-title {
+  font-family: LuloCleanOne-Bold;
+  font-size: 40px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: $brown;
+}
+
+.is-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home-subtitle {
+  font-family: LuloCleanOne;
+  font-size: 16px;
+  font-weight: normal !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: $light-brown;
+}
+
+.rectangle {
+  width: 335px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: #fbdfdb;
+}
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}
