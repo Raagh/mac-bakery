@@ -1,18 +1,17 @@
-@import '../../../../styles.scss';
+@import './src/styles.scss';
 .torta-home {
   width: 50%;
-  height: 906px;
+  object-fit: cover;
 }
 
 .is-small {
   width: 50%;
-  height: 50%;
+  height: 30%;
 }
 
 .padding-margin {
   padding-left: 30px;
   padding-top: 4rem;
-  margin-bottom: 70px;
 }
 
 .letter-spacing-5 {
@@ -42,13 +41,6 @@
   line-height: 2;
   letter-spacing: normal;
   color: $light-brown;
-}
-
-.rectangle {
-  width: 335px;
-  height: 70px;
-  border-radius: 4px;
-  background-color: #fbdfdb;
 }
 
 .is-vertical-center {
