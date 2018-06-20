@@ -1,0 +1,21 @@
+@import './src/styles.scss';
+.hero-section {
+  height: 619px;
+  background-color: #fafafa;
+}
+
+.hero-title {
+  font-family: LuloCleanOne;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #715a52;
+}
+
+span {
+  font-weight: bold;
+}

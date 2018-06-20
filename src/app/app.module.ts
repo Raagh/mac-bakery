@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './views/home/home.component';
 import { HomeIntroComponent } from './views/home/home-intro/home-intro.component';
 import { HomeBoxesComponent } from './views/home/home-boxes/home-boxes.component';
+import { HomeHeroComponent } from './views/home/home-hero/home-hero.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HomeBoxesComponent } from './views/home/home-boxes/home-boxes.component
         NavbarComponent,
         HomeComponent,
         HomeIntroComponent,
-        HomeBoxesComponent
+        HomeBoxesComponent,
+        HomeHeroComponent
     ],
     imports: [
         BrowserModule
