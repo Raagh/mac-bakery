@@ -58,12 +58,26 @@
   #title,
   #subtitle {
     float: none !important;
-    height: 40% !important;
     width: 100% !important;
-    padding: 0;
-    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 0px;
   }
   #home-intro {
     display: inline;
+  }
+  #title {
+    height: 35% !important;
+  }
+  #subtitle {
+    height: 48% !important;
+  }
+}
+
+@media only screen and (max-device-width: 320px) and (max-device-height: 568px) {
+  #title {
+    height: 40% !important;
+  }
+  #subtitle {
+    height: 75% !important;
   }
 }
