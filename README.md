@@ -1,6 +1,6 @@
 # MacBakery
 
-This project is a website made for MacBakery, an Bakery store from Argentina. Its made with Angular, Bulma and Sass.
+This project is a website made for MacBakery, a Bakery from Argentina. Its made with Angular, Bulma and Sass.
 
 ## Development server
 
@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Live
 
-This app is live on :   using now.sh with github integration.
+This app is live on : https://mac-bakery-xfzbjqvmmz.now.sh/ using now.sh with github integration.
 
 
 @Raagh - Patricio Ferraggi - Coke && Code 2018
