@@ -9,6 +9,7 @@ import { HomeComponent } from './views/home/home.component';
 import { HomeIntroComponent } from './views/home/home-intro/home-intro.component';
 import { HomeBoxesComponent } from './views/home/home-boxes/home-boxes.component';
 import { HomeHeroComponent } from './views/home/home-hero/home-hero.component';
+import { HomeHistoryComponent } from './views/home/home-history/home-history.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HomeHeroComponent } from './views/home/home-hero/home-hero.component';
         HomeComponent,
         HomeIntroComponent,
         HomeBoxesComponent,
-        HomeHeroComponent
+        HomeHeroComponent,
+        HomeHistoryComponent
     ],
     imports: [
         BrowserModule
