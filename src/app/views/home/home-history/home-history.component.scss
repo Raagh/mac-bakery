@@ -1,4 +1,13 @@
-.history {
-  height: 40%;
+.history-background {
+  height: 80%;
   background-image: url('../../../../assets/history-background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+.history-panel {
+  height: 80%;
+  width: 30%;
+  margin-left: 30px;
+  background-color: #ffffff;
 }
