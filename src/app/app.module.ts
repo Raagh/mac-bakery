@@ -11,6 +11,7 @@ import { HomeIntroComponent } from './views/home/home-intro/home-intro.component
 import { HomeBoxesComponent } from './views/home/home-boxes/home-boxes.component';
 import { HomeHeroComponent } from './views/home/home-hero/home-hero.component';
 import { HomeHistoryComponent } from './views/home/home-history/home-history.component';
+import { HeroExtraComponent } from './views/home/home-hero-extra/home-hero-extra.component';
 
 
 
@@ -23,7 +24,8 @@ import { HomeHistoryComponent } from './views/home/home-history/home-history.com
         HomeBoxesComponent,
         HomeHeroComponent,
         HomeHistoryComponent,
-        HistorySmallPanelComponent
+        HistorySmallPanelComponent,
+        HeroExtraComponent
     ],
     imports: [
         BrowserModule
