@@ -14,9 +14,6 @@ import { HomeHeroComponent } from './views/home/home-hero/home-hero.component';
 import { HomeHistoryComponent } from './views/home/home-history/home-history.component';
 import { HeroExtraComponent } from './views/home/home-hero-extra/home-hero-extra.component';
 
-
-
-
 @NgModule({
     declarations: [
         AppComponent,
