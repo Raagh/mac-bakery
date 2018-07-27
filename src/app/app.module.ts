@@ -1,18 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { HistorySmallPanelComponent } from './components/history-small-panel/history-small-panel.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { HistorySmallPanelComponent } from './shared/history-small-panel/history-small-panel.component';
+import { HeroContactComponent } from './shared/hero-contact/hero-contact.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeComponent } from './views/home/home.component';
 import { HomeIntroComponent } from './views/home/home-intro/home-intro.component';
 import { HomeBoxesComponent } from './views/home/home-boxes/home-boxes.component';
 import { HomeHeroComponent } from './views/home/home-hero/home-hero.component';
 import { HomeHistoryComponent } from './views/home/home-history/home-history.component';
-import { HeroExtraComponent } from './views/home/home-hero-extra/home-hero-extra.component';
+
+import { ProductsComponent } from './views/products/products.component';
+import { ProductsQuicklinksComponent } from './views/products/products-quicklinks/products-quicklinks.component';
+import { ProductsIntroComponent } from './views/products/products-intro/products-intro.component';
+
+const appRoutes: Routes = [
+    { path: 'products', component: ProductsComponent },
+    { path: 'home', component: HomeComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' }
+];
 
 @NgModule({
     declarations: [
@@ -24,10 +35,17 @@ import { HeroExtraComponent } from './views/home/home-hero-extra/home-hero-extra
         HomeHeroComponent,
         HomeHistoryComponent,
         HistorySmallPanelComponent,
-        HeroExtraComponent,
-        FooterComponent
+        HeroContactComponent,
+        FooterComponent,
+        ProductsComponent,
+        ProductsQuicklinksComponent,
+        ProductsIntroComponent
     ],
     imports: [
+        RouterModule.forRoot(
+            appRoutes,
+            { enableTracing: true }
+        ),
         BrowserModule
     ],
     providers: [],

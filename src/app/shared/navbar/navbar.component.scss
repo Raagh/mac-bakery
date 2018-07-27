@@ -41,5 +41,14 @@
   margin-top: 25px;
   width: 2px;
   height: 18px;
-  border: solid 2px #fbdfdb;
+  border: solid 2px $light-pink;
+}
+
+.home {
+  padding-left: 50px
+}
+
+.is-active {
+  color: $green;
+  outline: 0;
 }

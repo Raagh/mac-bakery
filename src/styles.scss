@@ -2,6 +2,10 @@
 $brown: #715a52;
 $light-brown:#7b6b65;
 $background-color: #ffffff;
+$green:#62baa2;
+$light-green:#cef5ea;
+$light-pink:#fbdfdb;
+$light-grey:#f6f6f6;
 html,
 body,
 main {
@@ -40,7 +44,7 @@ main {
   line-height: 1.5;
   letter-spacing: -0.6px;
   text-align: center;
-  color: #715a52;
+  color: $brown;
 }
 
 .is-bold {
@@ -48,10 +52,15 @@ main {
 }
 
 .right-arrow {
-  border: solid #62baa2;
+  border: solid $green;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+span:focus {
+  outline: none;
+  border: 0;
 }

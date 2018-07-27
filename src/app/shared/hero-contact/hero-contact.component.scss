@@ -2,7 +2,7 @@
 .hero-section {
   height: 619px;
   background-color: #fff3f2;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .button-bakery {
@@ -17,17 +17,18 @@
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: 5px;
-  color: #7b6b65;
+  color: $light-brown;
   margin-left: 10px;
   margin-right: 10px;
+  border: none;
 }
 
 .is-red {
-  background-color: #fbdfdb;
+  background-color: $light-pink;
 }
 
 .is-green {
-  background-color: #cef5ea;
+  background-color: $light-green;
 }
 
 @media screen and (max-width: 800px) {

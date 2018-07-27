@@ -9,7 +9,7 @@
   width: 275px;
   height: 70px;
   border-radius: 4px;
-  background-color: #fbdfdb;
+  background-color: $light-pink;
   margin-top: 50px;
   font-family: Montserrat;
   font-size: 16px;
@@ -19,10 +19,17 @@
   line-height: 1.5;
   letter-spacing: 5px;
   color: #7b6b65;
+  border: none;
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .hero-section {
     padding-top: 150px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button-bakery {
+    margin-top: 30px;
   }
 }

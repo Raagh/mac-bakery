@@ -11,7 +11,7 @@ footer {
   font-stretch: normal;
   line-height: 2;
   letter-spacing: 0.6px;
-  color: #7b6b65;
+  color: $light-brown;
 }
 
 .footer-days {
@@ -24,7 +24,7 @@ footer {
   width: 415px;
   height: 64px;
   border-radius: 4px;
-  background-color: #f6f6f6;
+  background-color: $light-grey;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: normal;
@@ -42,11 +42,11 @@ footer {
   height: 64px;
   border-radius: 4px;
   border: 0;
-  background-color: #fbdfdb;
+  background-color: $light-pink;
 }
 
 .right-arrow-brown {
-  border: solid #715a52;
+  border: solid $brown;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
