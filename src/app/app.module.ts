@@ -18,6 +18,7 @@ import { HomeHistoryComponent } from './views/home/home-history/home-history.com
 import { ProductsComponent } from './views/products/products.component';
 import { ProductsQuicklinksComponent } from './views/products/products-quicklinks/products-quicklinks.component';
 import { ProductsIntroComponent } from './views/products/products-intro/products-intro.component';
+import { ProductsCarrouselComponent } from './views/products/products-carrousel/products-carrousel.component';
 
 const appRoutes: Routes = [
     { path: 'products', component: ProductsComponent },
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
         FooterComponent,
         ProductsComponent,
         ProductsQuicklinksComponent,
-        ProductsIntroComponent
+        ProductsIntroComponent,
+        ProductsCarrouselComponent
     ],
     imports: [
         RouterModule.forRoot(

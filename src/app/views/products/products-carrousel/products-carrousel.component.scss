@@ -1,0 +1,40 @@
+@import './src/styles.scss';
+.big-arrow {
+  border: solid $brown;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20%;
+}
+
+.arrow-left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.arrow-right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.arrow-background {
+  width: 36.8px;
+  height: 56px;
+  background-color: #fbdfdb;
+}
+
+.position-top-right {
+  top: 0px;
+  right: 0px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.carrousel-container {
+  position: relative;
+}
