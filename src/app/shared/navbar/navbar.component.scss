@@ -52,3 +52,9 @@
   color: $green;
   outline: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding-bottom: 10px;
+  }
+}

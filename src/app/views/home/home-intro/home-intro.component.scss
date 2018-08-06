@@ -29,6 +29,10 @@
   color: $brown;
 }
 
+.separation {
+  padding-top: 30px;
+}
+
 .is-montserrat {
   font-family: 'Montserrat', sans-serif;
 }
@@ -59,8 +63,8 @@
   #subtitle {
     float: none !important;
     width: 100% !important;
-    padding-top: 30px;
     padding-bottom: 0px;
+    padding-top: 10px;
   }
   #home-intro {
     display: inline;
@@ -70,6 +74,9 @@
   }
   #subtitle {
     height: 48% !important;
+  }
+  .padding-margin {
+    padding-top: 2rem;
   }
 }
 

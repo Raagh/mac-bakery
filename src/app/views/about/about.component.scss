@@ -1,0 +1,6 @@
+@import './src/styles.scss';
+@media screen and (max-width: 800px) {
+  .no-margin {
+    margin: 0 !important;
+  }
+}

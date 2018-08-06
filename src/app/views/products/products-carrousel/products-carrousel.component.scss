@@ -37,4 +37,12 @@
 
 .carrousel-container {
   position: relative;
+  height: 361px;
+}
+
+@media screen and (max-width: 800px) {
+  .carrousel-container {
+    height: auto;
+    display: none;
+  }
 }
