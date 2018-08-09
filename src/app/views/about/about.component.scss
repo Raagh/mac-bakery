@@ -1,6 +1,64 @@
 @import './src/styles.scss';
+.about-title {
+  height: 285px;
+  font-family: LuloCleanOne;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.3px;
+  color: #715a52;
+}
+
+.is-pink {
+  color: #fbdfdb;
+}
+
+.has-some-padding {
+  padding-top: 70px;
+  padding-left: 200px;
+}
+
+.about-link {
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #7b6b65;
+}
+
+.about-explanation {
+  height: 30%;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #7b6b65;
+  margin-bottom: 50px;
+}
+
+.right-arrow-pink {
+  border: solid $light-pink;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
 @media screen and (max-width: 800px) {
   .no-margin {
     margin: 0 !important;
+  }
+  .has-some-padding {
+    padding: 20px !important;
   }
 }

@@ -21,11 +21,13 @@ import { ProductsIntroComponent } from './views/products/products-intro/products
 import { ProductsCarrouselComponent } from './views/products/products-carrousel/products-carrousel.component';
 
 import { AboutComponent } from './views/about/about.component';
+import { ContactComponent } from './views/contact/contact.component';
 
 const appRoutes: Routes = [
     { path: 'products', component: ProductsComponent },
     { path: 'home', component: HomeComponent },
     { path: 'about', component: AboutComponent },
+    { path: 'contact', component: ContactComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
@@ -45,7 +47,8 @@ const appRoutes: Routes = [
         ProductsQuicklinksComponent,
         ProductsIntroComponent,
         ProductsCarrouselComponent,
-        AboutComponent
+        AboutComponent,
+        ContactComponent
     ],
     imports: [
         RouterModule.forRoot(
