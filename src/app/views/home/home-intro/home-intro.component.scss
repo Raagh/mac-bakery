@@ -6,13 +6,14 @@
 
 .is-small {
   width: 50%;
-  height: 30%;
 }
 
 .padding-margin {
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 3rem;
+}
+
+.padding-big {
+  padding-top: 9rem;
 }
 
 .letter-spacing-5 {
@@ -20,7 +21,7 @@
 }
 
 .home-title {
-  font-family: LuloCleanOne-Bold;
+  font-family: Montserrat;
   font-size: 40px;
   font-style: normal;
   font-stretch: normal;
@@ -30,15 +31,20 @@
 }
 
 .separation {
-  padding-top: 30px;
+  padding-top: 7rem !important;
 }
 
 .is-montserrat {
   font-family: 'Montserrat', sans-serif;
 }
 
+.section-home {
+  padding-left: 7rem;
+  padding-top: 1rem;
+}
+
 .home-subtitle {
-  font-family: LuloCleanOne;
+  font-family: Montserrat;
   font-size: 16px;
   font-weight: normal !important;
   font-style: normal;
@@ -46,6 +52,27 @@
   line-height: 2;
   letter-spacing: normal;
   color: $light-brown;
+}
+
+.home-link {
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #7b6b65;
+}
+
+.right-arrow-pink {
+  border: solid $light-pink;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .is-vertical-center {
@@ -82,9 +109,18 @@
 
 @media only screen and (max-device-width: 320px) and (max-device-height: 568px) {
   #title {
-    height: 40% !important;
+    height: 50% !important;
   }
   #subtitle {
     height: 75% !important;
+  }
+  .padding-big {
+    padding-top: 3rem;
+  }
+  .section-home {
+    padding-left: 1.5rem;
+  }
+  .separation {
+    padding-top: 3rem !important;
   }
 }
