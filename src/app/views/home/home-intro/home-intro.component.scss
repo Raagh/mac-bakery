@@ -97,12 +97,23 @@
     display: inline;
   }
   #title {
-    height: 35% !important;
+    height: 30% !important;
   }
   #subtitle {
-    height: 48% !important;
+    height: 55% !important;
   }
   .padding-margin {
+    padding-top: 2rem;
+  }
+  .separation {
+    padding-top: 0 !important;
+  }
+  .section-home {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 1rem !important;
+  }
+  .padding-big {
     padding-top: 2rem;
   }
 }
@@ -118,9 +129,9 @@
     padding-top: 3rem;
   }
   .section-home {
-    padding-left: 1.5rem;
+    padding-left: 1.5rem !important;
   }
   .separation {
-    padding-top: 3rem !important;
+    padding-top: 1rem !important;
   }
 }

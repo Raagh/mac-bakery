@@ -1,8 +1,8 @@
 @import './src/styles.scss';
 .hero-section {
-  height: 619px;
+  height: 700px;
   background-color: #fafafa;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .button-bakery {
@@ -43,5 +43,15 @@
 @media screen and (max-width: 800px) {
   .button-bakery {
     margin-top: 30px;
+  }
+  .hero-section {
+    padding-top: 3rem;
+  }
+}
+
+@media only screen and (max-device-width: 320px) and (max-device-height: 568px) {
+  .hero-section {
+    padding-top: 40px !important;
+    height: 700px;
   }
 }

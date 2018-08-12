@@ -91,9 +91,10 @@
   padding-right: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-device-width: 320px) and (max-device-height: 568px) {
   .button-carrito {
     width: 290px;
+    margin-left: 0rem !important;
   }
   .has-padding {
     padding-left: 15px;
@@ -106,6 +107,41 @@
   }
   .share-line {
     padding-top: 30px;
-    padding-left: 60px;
+    padding-left: 60px !important;
+  }
+  .padding-left-5 {
+    display: none;
+  }
+  .cantidad {
+    margin-left: 0rem !important;
+  }
+  .has-margintop-10 {
+    margin-left: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button-carrito {
+    width: 290px;
+    margin-left: 3rem;
+  }
+  .has-padding {
+    padding-left: 15px;
+  }
+  .no-margin {
+    margin: 0 !important;
+  }
+  .share-line {
+    padding-top: 30px;
+    padding-left: 6rem;
+  }
+  .padding-left-5 {
+    display: none;
+  }
+  .cantidad {
+    margin-left: 9rem;
+  }
+  .has-margintop-10 {
+    margin-left: 9rem;
   }
 }
