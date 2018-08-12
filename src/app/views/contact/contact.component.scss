@@ -2,6 +2,8 @@
 .contact-level {
   height: 189px;
   background-color: #fff3f2;
+  width: 100%;
+  margin-left: 0px;
 }
 
 .contact-level-text {
@@ -83,8 +85,6 @@
   line-height: 1.5;
   letter-spacing: 5px;
   color: $light-brown;
-  margin-left: 10px;
-  margin-right: 10px;
   border: none;
 }
 
