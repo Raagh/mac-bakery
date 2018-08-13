@@ -1,7 +1,6 @@
 @import './src/styles.scss';
 .link-text {
-  height: 64px;
-  font-family: LuloCleanOne;
+  font-family: Montserrat;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -9,4 +8,28 @@
   line-height: 4;
   letter-spacing: -0.4px;
   color: $brown;
+}
+
+.tortas {
+  margin-left: 20px;
+}
+
+.cookies {
+  margin-left: 20px;
+}
+
+.tartas {
+  margin-bottom: 20px;
+}
+
+.cupcakes {
+  margin-left: 20px;
+}
+
+#cookie {
+  margin-top: 10px;
+}
+
+#tarta {
+  margin-top: 15px;
 }
