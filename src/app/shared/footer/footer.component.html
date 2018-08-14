@@ -46,7 +46,7 @@
         </span>
         <div class="is-inline-flex">
           <input type="email" class="footer-email" placeholder="tumail@aqui.com" id="email-sender">
-          <button class="footer-email-button">
+          <button class="footer-email-button" (click)="subscribe()">
             <i class="right-arrow-brown"></i>
           </button>
         </div>
@@ -57,4 +57,5 @@
   <div class="footer-title">
     <span class="is-bold">Mac Pasteleria</span> Todos los derechos reservados. Copyright 2018
   </div>
+  <app-notification-modal title="{{modalTitle}}" text="{{modalText}}" isActive="{{isModalActive}}"></app-notification-modal>
 </footer>

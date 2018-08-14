@@ -25,6 +25,7 @@ import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
 
 
+
 const appRoutes: Routes = [
     { path: 'products', component: ProductsComponent },
     { path: 'home', component: HomeComponent },

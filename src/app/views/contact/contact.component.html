@@ -12,7 +12,7 @@
     <p class="contact-form-text">o por teléfono al
       <input class="contact-input" type="text" placeholder="tu teléfono"> Gracias!
     </p>
-    <button class="button-bakery is-red" type="button">ENVIAR MENSAJE</button>
+    <button class="button-bakery is-red" (click)="sendMessage()" type="button">ENVIAR MENSAJE</button>
   </article>
 </section>
 <div class="columns contact-level">
@@ -27,3 +27,4 @@
     <br> Belgrano C, CABA (1017)
   </div>
 </div>
+<app-notification-modal title="{{modalTitle}}" text="{{modalText}}" isActive="{{isModalActive}}"></app-notification-modal>

@@ -43,12 +43,19 @@
   color: #7b6b65;
 }
 
+.not-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .hero-section {
     padding-top: 30px;
   }
   .button-bakery {
     margin-left: 0px;
+  }
+  .not-mobile {
+    display: block;
   }
 }
 
