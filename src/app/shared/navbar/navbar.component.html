@@ -1,13 +1,13 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <img src="assets/logo.svg" class="logo">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+    <a role="button" class="navbar-burger" (click)="toggleBurger()" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu navbar-right">
+  <div id="navMenu" class="navbar-menu navbar-right" [ngClass]="{'is-active': BurgerToggled}">
     <div class="navbar-end">
       <div class="navbar-item">
         <span routerLink="/home" routerLinkActive="is-active" class="navbar-text home">HOME</span>
@@ -21,16 +21,16 @@
       <div class="navbar-item">
         <span routerLink="/contact" routerLinkActive="is-active" class="navbar-text">CONTACTO</span>
       </div>
-      <div class="line"></div>
+      <!-- <div class="line"></div>
       <div class="navbar-item">
         <span class="navbar-text margin-left-30">Mi carrito</span>
         <img class="margin-right-30" src="assets/navbar/shopping-cart.svg" alt="carrito">
-      </div>
-      <div class="line"></div>
-      <div class="navbar-item">
+      </div> -->
+      <div class="line not-mobile"></div>
+      <div class="navbar-item not-mobile">
         <img src="assets/navbar/facebook.svg" alt="facebook">
       </div>
-      <div class="navbar-item">
+      <div class="navbar-item not-mobile">
         <img src="assets/navbar/instagram.svg" alt="instagram">
       </div>
     </div>

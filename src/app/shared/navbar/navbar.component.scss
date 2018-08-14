@@ -57,4 +57,17 @@
   .navbar {
     padding-bottom: 10px;
   }
+  .navbar-right {
+    flex: 1 1 auto;
+    height: 180px;
+    width: 100%;
+    float: none;
+    padding-left: 50px;
+  }
+  .home {
+    padding-left: 0px;
+  }
+  .not-mobile {
+    display: none;
+  }
 }
