@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Live
 
-This app is live on : https://mac-bakery-jxhinsagwh.now.sh using now.sh with github integration.
+This app is live on : https://mac-bakery-uxgwomflwj.now.sh using now.sh with github integration.
 
 
 @Raagh - Patricio Ferraggi - Coke && Code 2018
