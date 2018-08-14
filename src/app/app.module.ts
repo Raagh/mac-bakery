@@ -8,6 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HistorySmallPanelComponent } from './shared/history-small-panel/history-small-panel.component';
 import { HeroContactComponent } from './shared/hero-contact/hero-contact.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { NotificationModalComponent } from './shared/notification-modal/notification-modal.component';
 
 import { HomeComponent } from './views/home/home.component';
 import { HomeIntroComponent } from './views/home/home-intro/home-intro.component';
@@ -22,6 +23,7 @@ import { ProductsCarrouselComponent } from './views/products/products-carrousel/
 
 import { AboutComponent } from './views/about/about.component';
 import { ContactComponent } from './views/contact/contact.component';
+
 
 const appRoutes: Routes = [
     { path: 'products', component: ProductsComponent },
@@ -43,6 +45,7 @@ const appRoutes: Routes = [
         HistorySmallPanelComponent,
         HeroContactComponent,
         FooterComponent,
+        NotificationModalComponent,
         ProductsComponent,
         ProductsQuicklinksComponent,
         ProductsIntroComponent,
