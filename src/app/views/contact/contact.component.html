@@ -13,6 +13,7 @@
       <input class="contact-input" type="text" placeholder="tu teléfono"> Gracias!
     </p>
     <button class="button-bakery is-red" (click)="sendMessage()" type="button">ENVIAR MENSAJE</button>
+    <app-notification-modal title="{{modalTitle}}" text="{{modalText}}" isActive="{{isModalActive}}"></app-notification-modal>
   </article>
 </section>
 <div class="columns contact-level">
@@ -27,4 +28,3 @@
     <br> Belgrano C, CABA (1017)
   </div>
 </div>
-<app-notification-modal title="{{modalTitle}}" text="{{modalText}}" isActive="{{isModalActive}}"></app-notification-modal>
