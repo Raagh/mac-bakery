@@ -47,15 +47,18 @@
   display: none;
 }
 
+@media only screen and (max-device-width: 320px) and (max-device-height: 568px) {
+  .button-bakery {
+    margin-left: 0px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .hero-section {
     padding-top: 30px;
   }
-  .button-bakery {
-    margin-left: 0px;
-  }
   .not-mobile {
-    display: block;
+    display: inline;
   }
 }
 
